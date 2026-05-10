@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Personal Karaoke</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background-glow"></div>
+  <div class="container">
+
+    <header class="topbar">
+      <div>
+        <h1 class="logo">Aruana's Karaoke Gallery</h1>
+        <p class="subtitle">享受你的聆听体验</p>
+      </div>
+      <div class="current-song" id="currentSong">Loading...</div>
+    </header>
+
+    <main class="layout">
+      <aside class="sidebar">
+        <h2>Songs</h2>
+        <div class="songs" id="songsList"></div>
+      </aside>
+
+      <section class="player">
+        <div class="cover-section">
+          <img id="coverImage" src="" alt="cover" title="Нажми для просмотра">
+          <div class="cover-overlay"></div>
+          <div class="cover-content">
+            <div class="badge">Now Playing</div>
+            <h2 id="songTitle"></h2>
+            <p id="songArtist"></p>
+          </div>
+        </div>
+
+        <div class="player-controls">
+          <button id="prevButton" title="Предыдущая (↑)">⏮</button>
+          <button id="playButton">▶</button>
+          <button id="nextButton" title="Следующая (↓)">⏭</button>
+          <div class="progress-wrapper">
+            <div class="progress" id="progressBar">
+              <div class="progress-fill" id="progressFill"></div>
+            </div>
+            <div class="time-row">
+              <span id="timeCurrentEl">0:00</span>
+              <span id="timeTotalEl">0:00</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="lyrics-viewport">
+          <div class="lyrics" id="lyrics"></div>
+        </div>
+
+        <audio id="audio"></audio>
+      </section>
+    </main>
+  </div>
+
+  <!-- ═══ РЕДАКТОР (Ctrl+E) ═══ -->
+  <div id="timingEditor" style="display:none">
+    <div class="te-overlay" id="teOverlay"></div>
+    <div class="te-panel">
+
+      <div class="te-header">
+        <span class="te-title">Редактор</span>
+        <div class="te-tabs">
+          <button class="te-tab active" data-tab="timings">Тайминги</button>
+          <button class="te-tab" data-tab="cover">Фокус обложки</button>
+        </div>
+        <button class="te-close" id="teClose">✕</button>
+      </div>
+
+      <!-- Вкладка таймингов -->
+      <div class="te-body" id="teTabTimings">
+        <div class="te-controls">
+          <button id="tePlay">▶ Play</button>
+          <span id="teTime">0:00.00</span>
+          <button id="teExport">Скопировать LRC</button>
+          <span class="te-hint2">Ctrl+E закрыть · Space/Enter = метка</span>
+        </div>
+        <div class="te-lines" id="teLines"></div>
+      </div>
+
+      <!-- Вкладка фокуса обложки -->
+      <div class="te-body" id="teTabCover" style="display:none">
+        <div class="te-cover-hint">
+          Кликни на обложке чтобы выбрать точку фокуса.<br>
+          Потом скопируй значение в <code>coverFocus</code> нужной песни в <code>script.js</code>.
+        </div>
+        <div class="te-cover-wrap">
+          <div class="te-cover-container" id="teCoverContainer">
+            <img id="teCoverImg" src="" alt="">
+            <div class="te-crosshair" id="teCrosshair"></div>
+          </div>
+        </div>
+        <div class="te-cover-output">
+          <span>coverFocus:</span>
+          <code id="teCoverValue">"center center"</code>
+          <button id="teCoverCopy">📋 Копировать</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ═══ LIGHTBOX ОБЛОЖКИ ═══ -->
+  <div id="coverLightbox" class="cover-lightbox" aria-hidden="true">
+    <div class="cover-lightbox-backdrop"></div>
+    <div class="cover-lightbox-frame">
+      <img id="coverLightboxImg" src="" alt="">
+      <button class="cover-lightbox-close" id="coverLightboxClose" title="Закрыть">✕</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
