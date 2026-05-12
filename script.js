@@ -292,7 +292,7 @@ const songs = [
     title:"Self Aware", artist:"Temper City",
     audio:"assets/songs/self-aware.mp3",
     cover:"assets/covers/self-aware.jpeg",
-    coverFocus:"center",
+    coverFocus:"50% 29%",
     theme:{ bg:"#1e2a41", accent:"#7eb8d4" },
     tr:{
       "No smoke without fire":                                    "Нет дыма без огня",
@@ -468,7 +468,196 @@ const songs = [
 [03:52.00]Wait for love
 
 [03:55.00]Just remember that silence is not an option. But we could be silent together)`
-  }
+  },
+
+// ── Shadowraze — Холод ─────────────────────────────
+  {
+  title:"Холод", artist:"Shadowraze",
+  audio:"assets/songs/holod.mp3",
+  cover:"assets/covers/holod.jpg",
+  coverFocus:"50% 0%",
+  theme:{ bg:"#384b77", accent:"#8ab4ff" },
+  tr:{},
+  lrcRaw:`
+[00:20.00]Потерял весь мир, забыл себя, я тону в омуте
+[00:22.20]Глаза как у ребёнка, и я забываю голос твой
+[00:24.85]Как снег февральским утром, я весь покрытый холодом
+[00:27.30]Мой разум помутнел, и я вновь теряю голову
+[00:29.70]Ты посмотри в мои глаза, ха, сколько видишь боли в них?
+[00:32.60]Со мною небеса, твой взор убил меня, я вновь поник
+[00:35.00]Я рад был умереть, запомнив твой чудесный лик
+[00:37.40]И если я умру ещё раз, я умру за нас двоих
+
+  [00:40.20]И если ты растаешь, я зажгу снова пожар
+  [00:42.40]Случайно потеряешь — обойду весь земной шар
+  [00:45.00]Внезапно если будет больно, я приму любой удар
+  [00:47.20]Всегда держа тебя за руку, выживу в любой кошмар
+  [00:50.20]С тобой снова живой и в груди горят огни
+  [00:52.30]И звёзды нам напомнят, почему мы не одни
+  [00:55.00]Мы как бушующее море, в нём с тобой мы корабли
+  [00:57.60]И даже в самой худшей ссоре, умоляю, не уйди
+  [01:00.00]Не уходи, прошу, останься, подари немного времени
+  [01:03.00]Весь год идёт так холодно, но я согрею, верь в меня
+  [01:05.30]Прости за всё, что сказано, и правда, без сомнения
+  [01:07.90]Свети всё так же ярко, моё Солнце, я люблю тебя
+
+  [01:11.40]— Раскаты грома вдалеке едва слышны…
+  [01:14.50]— Но даже если дождю не быть, останусь, коль ты велишь остаться
+
+  [01:20.80]Потерял весь мир, забыл себя, я тону в омуте
+  [01:22.80]Глаза как у ребёнка, и я забываю голос твой
+  [01:25.40]Как снег февральским утром, я весь покрытый холодом
+  [01:28.00]Мой разум помутнел, и я вновь теряю голову
+  [01:30.50]Ты посмотри в мои глаза, ха, сколько видишь боли в них?
+  [01:32.80]Со мною небеса, твой взор убил меня, я вновь поник
+  [01:35.80]Я рад был умереть, запомнив твой чудесный лик
+  [01:37.90]И если я умру ещё раз, я умру за нас двоих
+
+  [01:40.10]Не уходи, прошу, останься, подари немного времени
+  [01:42.70]Весь год идёт так холодно, но я согрею, верь в меня
+  [01:45.80]Прости за всё, что сказано, и правда, без сомнения
+  [01:48.00]Свети всё так же ярко, моё Солнце, я люблю тебя
+
+  [01:52.00]— Ну, может, ещё встретимся…
+  [01:54.00]— Встретимся, когда пойдёт дождь
+`
+},
+
+// ── Ikimono Gakari — Blue Bird ─────────────────────
+{
+  title:"Blue Bird", artist:"Ikimono Gakari",
+  audio:"assets/songs/blue-bird.mp3",
+  cover:"assets/covers/blue-bird.jpg",
+  coverFocus:"50% 35%",
+  theme:{ bg:"#00adf1", accent:"#ff59a7" },
+  tr:{
+    "Habataitara":                                      "You say if you could fly",
+    "Modoranai to itte":                                "You'd never come back down",
+    "Mezashita no wa":                                  "You only have eyes for",
+    "Aoi aoi ano sora":                                 "The blue, blue sky",
+    "\"Kanashimi\" wa mada oboerarezu":                 "You've yet to learn what \"Sadness\" is",
+    "\"Setsuna sa\" wa ima tsukami hajimeta":           "And are now just grasping what \"Pain\" is like",
+    "Anata e to idaku kono kanjou mo":                  "Even the feelings I have for you ",
+    "Ima \"kotoba\" ni kawatte iku":                    "Must be expressed in \"words\"",
+    "Michi naru sekai no":                              "As you awake from a dream",
+    "Yume kara mezamete":                               "into an unknown world",
+    "Kono hane o hiroge":                               "Spreading these wings",
+    "Tobitatsu":                                        "And take flight!",    
+    "Habataitara modoranai to itte":                    "You say if you could fly, you'd never come back down", 
+    "Mezashita no wa shiroi shiroi ano kumo":           "What you were striving for was the white, white clouds",
+    "Tsukinuketara mitsukaru to shitte":                "You know if you can just make it through, you'll find what you seek",
+    "Furikiru hodo aoi aoi ano sora":                   "So keep trying to break free to that blue, blue sky",
+    "Aoi aoi ano sora":                                 "The blue, blue sky",
+    "Aisou tsukita you na oto de":                      "With a sound like you'd grown tired of it all",
+    "Sabireta furui mado wa kowareta":                  "That rusted, broken window shattered",
+    "Miakita kago wa hora sutete iku":                  "The cage you’ve grown sick of, look, you're leaving it behind",
+    "Furikaeru koto wa mou nai":                        "No more looking back",
+    "Takanaru kodou ni":                                "With your racing heartbeat",
+    "Kokyuu o azukete":                                 "You share your breath with the wind",
+    "Kono mado o kette tobitatsu":                      "You kick off from that window and take flight",
+    "Kakedashitara te ni dekiru to itte":               "You say once you start to run, you'll get what you need",
+    "Izanau no wa tooi tooi ano koe":                   "The voice that calls to you is far, far away",
+    "Mabushi sugita anata no te mo nigitte":            "Even the blinding light of your hand I held",
+    "Motomeru hodo, aoi aoi ano sora":                  "The more I reach for it, the deeper the blue of that sky",
+    "Ochite iku to":                                    "Even knowing I might fall",
+    "Wakatte ita":                                      "I understood",
+    "Sore de mo hikari o":                              "After that light",
+    "Oitsuzukete iku yo":                               "I'll keep chasing it",
+    "Sagashita no wa shiroi shiroi ano kumo":           "What you searched for was that white, white cloud",
+  },
+  lrcRaw:`
+[00:00.60]Habataitara
+[00:03.50]Modoranai to itte
+[00:07.00]Mezashita no wa
+[00:10.00]Aoi aoi ano sora
+[00:25.90]"Kanashimi" wa mada oboerarezu
+[00:28.80]"Setsuna sa" wa ima tsukami hajimeta
+[00:32.40]Anata e to idaku kono kanjou mo
+[00:35.30]Ima "kotoba" ni kawatte iku
+[00:38.70]Michi naru sekai no
+[00:41.80]Yume kara mezamete
+[00:44.80]Kono hane o hiroge
+[00:47.50]Tobitatsu
+[00:51.00]Habataitara modoranai to itte
+[00:57.20]Mezashita no wa shiroi shiroi ano kumo
+[01:03.60]Tsukinuketara mitsukaru to shitte
+[01:10.00]Furikiru hodo aoi aoi ano sora
+[01:16.20]Aoi aoi ano sora
+[01:19.50]Aoi aoi ano sora 
+[01:29.10]Aisou tsukita you na oto de
+[01:32.20]Sabireta furui mado wa kowareta
+[01:35.30]Miakita kago wa hora sutete iku
+[01:38.50]Furikaeru koto wa mou nai
+[01:41.50]Takanaru kodou ni
+[01:44.85]Kokyuu o azukete
+[01:47.80]Kono mado o kette tobitatsu
+[01:54.10]Kakedashitara te ni dekiru to itte
+[02:00.80]Izanau no wa tooi tooi ano koe
+[02:06.90]Mabushi sugita anata no te mo nigitte
+[02:13.30]Motomeru hodo, aoi aoi ano sora
+[02:32.60]Ochite iku to
+[02:35.70]Wakatte ita
+[02:38.60]Sore de mo hikari o
+[02:41.50]Oitsuzukete iku yo
+[02:46.30]Habataitara 
+[02:49.20]Modoranai to itte
+[02:52.90]Sagashita no wa shiroi shiroi ano kumo
+[02:59.00]Tsukinuketara mitsukaru to shitte
+[03:05.05]Furikiru hodo aoi aoi ano sora 
+[03:11.50]Aoi aoi ano sora 
+[03:14.90]Aoi aoi ano sora`
+},
+
+// ── Keane — Somewhere Only We Know ─────────────────
+{
+  title:"Somewhere Only We Know", artist:"Keane",
+  audio:"assets/songs/somewhere-only-we-know.mp3",
+  cover:"assets/covers/meowl.jpg",
+  coverFocus:"center",
+  theme:{ bg:"#2e2f36", accent:"#f5d08a" },
+  tr:{},
+  lrcRaw:`
+
+`
+},
+
+// ── Solo Made — Far Away ───────────────────────────
+{
+  title:"Far Away", artist:"Solo Made",
+  audio:"assets/songs/far-away.mp3",
+  cover:"assets/covers/meowl.jpg",
+  coverFocus:"center",
+  theme:{ bg:"#454e5f", accent:"#6f3b8d" },
+  tr:{},
+  lrcRaw:``
+},
+
+// ── Skillet — Comatose ─────────────────────────────
+{
+  title:"Comatose", artist:"Skillet",
+  audio:"assets/songs/comatose.mp3",
+  cover:"assets/covers/meowl.jpg",
+  coverFocus:"50% 30%",
+  theme:{ bg:"#2a0f16", accent:"#ff5b6e" },
+  tr:{},
+  lrcRaw:`
+
+`
+},
+
+// ── polnalyubvi — Твои глаза ───────────────────────
+{
+  title:"Твои глаза", artist:"polnalyubvi",
+  audio:"assets/songs/tvoi-glaza.mp3",
+  cover:"assets/covers/meowl.jpg",
+  coverFocus:"center",
+  theme:{ bg:"#3a1f2b", accent:"#ff9ecb" },
+  tr:{},
+  lrcRaw:`
+
+`
+},
+
 ];
 
 songs.forEach(s => { s.lyrics = parseLRC(s.lrcRaw); });
