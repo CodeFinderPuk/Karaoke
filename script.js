@@ -529,7 +529,7 @@ const songs = [
   audio:"assets/songs/blue-bird.mp3",
   cover:"assets/covers/blue-bird.jpg",
   coverFocus:"50% 35%",
-  theme:{ bg:"#00adf1", accent:"#ff59a7" },
+  theme:{ bg:"#ff6fb2", accent:"#7ae9ff" },
   tr:{
     "Habataitara":                                      "You say if you could fly",
     "Modoranai to itte":                                "You'd never come back down",
